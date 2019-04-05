@@ -1,0 +1,142 @@
+﻿body {
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    font-size: smaller;
+    font-family: serif;
+}
+
+img, header, nav {
+    display: none;
+}
+
+h2 {
+    font-size: small;
+    border-bottom: 2px solid #000;
+    text-align: left;
+}
+
+ul, li {
+    list-style: none;
+}
+
+
+
+@media print{
+    @media only screen and (min-width:16px) and (max-width:560px) {
+        .item6 {
+            background-image: url("images/Brain.png");
+            background-repeat: round;
+            background-position: center;
+            background-size: contain;
+            display: block;
+            visibility: visible;
+        }
+
+        .item4 {
+            background-image: url("images/tissue.jpg");
+            background-repeat: round;
+            background-position: center;
+            background-size: contain;
+            display: block;
+            visibility: visible;
+        }
+
+        .item2 {
+            background-image: url("images/cell.png");
+            background-repeat: round;
+            background-position: center;
+            background-size: contain;
+            display: block;
+            visibility: visible;
+        }
+
+        .logo {
+            visibility: hidden;
+        }
+
+        nav {
+            visibility:hidden;
+        }
+ 
+    }
+
+
+    @media only screen and (min-width:35.001em) and (max-width:50.999em) {
+        .item6 {
+            background-image: url('images/organ.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            visibility: visible;
+        }
+
+        .item4 {
+            background-image: url("images/MuscleTissue.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            display: block;
+            visibility: visible;
+        }
+
+        .item2 {
+            background-image: url("images/Mitochondria.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            display: block;
+            visibility: visible;
+        }
+
+        .logo {
+            visibility: hidden;
+        }
+
+        nav {
+            visibility: hidden;
+        }
+
+     
+    }
+
+    @media only screen and (min-width: 51em) and (max-width: 2000em) {
+        .item6 {
+            background-image: url('images/Brain.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            visibility: visible;
+        }
+
+        .item4 {
+            background-image: url("images/tissue.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            display: block;
+            visibility: visible;
+        }
+
+        .item2 {
+            background-image: url("images/cell.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            display: block;
+            visibility: visible;
+        }
+
+
+        .logo {
+            visibility: hidden;
+        }
+
+        nav {
+            visibility: hidden;
+        }
+
+    
+    }
+
+}
